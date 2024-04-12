@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* custom css */
+
+.inputbox{
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 0.2px solid rgba(225, 224, 224, 0.731);
+  border-radius: 5px;
+  color: rgb(24, 24, 24);
+  box-shadow: 0 0 10px 2px rgba(59, 59, 59, 0.5);
+}
+.inputbox:focus{
+  border: 0.2px solid rgba(225, 224, 224, 0.731);
+  outline: none;
+}
+.inputbox::placeholder{
+  color: rgb(173, 174, 174);
+}
